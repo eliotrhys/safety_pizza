@@ -1,0 +1,12 @@
+Write the .customer method for our PizzaOrder class and the .pizza_orders method for our Customer class.
+
+.customer method:
+
+Our Order objects know their own @customer_id
+We can use this in our SQL statement (use SqlRunner) to get back the customer data.
+Our .customer method should return a Customer object, an instance of the Customer class
+.pizza_orders method:
+
+Our Customer objects know their own @id
+We can use this in our SQL statement (use SqlRunner) to get back the data for all of their orders.
+Our .pizza_orders method should return an array of PizzaOrder objects, instances of the PizzaOrder class
